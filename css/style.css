@@ -1,0 +1,89 @@
+
+body {
+    background-image: url("images/achtergond.jpg");
+    text-align: center;
+}
+
+h1{
+    color:rgb(232 102 157);
+    font-family: sans-serif;
+    font-style: oblique;
+    font-size: 1.5em;
+}
+
+
+h2 {
+    color:rgb(232 102 157);
+    font-family: sans-serif;
+    font-style: oblique;
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 0%;
+}
+
+.Points {   
+    position: absolute;
+    display: flex;
+    width: 10%;
+    height: 10%;
+    right: 1%;
+    flex-direction: column;
+    top: 1%;
+}
+
+#mojo{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 30%;
+    margin-left: 30%;
+    padding-top: 0%;
+}
+
+#mojopunch{
+    height: 19em;
+}
+
+#mojobeaten{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 30%;
+    margin-left: 30%;
+    padding-top: 0%;
+    display: none;
+}
+
+img {
+    height: 10em;
+    margin: 1em;
+}
+
+
+
+#monkey{
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    height: 30%;
+    width: 30%;
+}
+
+.hidden {
+    display: none;
+}
+
+
+#messageBlock {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 70px;
+    color:  rgb(232 102 157);
+    font-family: sans-serif;
+    font-size: 40px;
+    border-radius: 25px;
+  }
